@@ -1,0 +1,31 @@
+{
+  "name": "gooof/global-ext",
+  "description": "Global extension for flarum",
+  "type": "flarum-extension",
+  "keywords": ["global"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gooof",
+      "email": "info@exmaple.com"
+    }
+  ],
+  "require": {
+    "flarum/core": "^0.1.0-beta.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "FlarumsCom\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Global EXT",
+      "icon": {
+        "name": "home-alt",
+        "backgroundColor": "#AABBCC",
+        "color": "#fff"
+      }
+    }
+  }
+}
